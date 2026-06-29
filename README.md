@@ -126,6 +126,4 @@ The system offers a secure and convenient method for biometric authentication ac
 
 ---
 
-## License
 
-MIT License. See `LICENSE` for details.
