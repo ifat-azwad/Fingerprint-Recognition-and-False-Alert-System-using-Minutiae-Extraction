@@ -4,7 +4,7 @@ clear all; clc; addpath(genpath(pwd));
 load('db2.mat');
 
 %% EXTRACT FEATURES FROM AN ARBITRARY FINGERPRINT
-filename='ifat.jpg';
+filename='2006085_1.jpg';
 img = imread(filename);
 figure; imshow(img); title("Original Image");
 if ndims(img) == 3; img = rgb2gray(img); end 
